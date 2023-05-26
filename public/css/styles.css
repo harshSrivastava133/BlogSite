@@ -10,9 +10,17 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #959595;
 }
+
+@keyframes navigator {
+    100%{font-size: x-large;}
+}
+
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #DDD0C8 !important;
+    animation: navigator 0.4s;
+    animation-fill-mode: forwards;
 }
 
 .footer-padding {
@@ -25,7 +33,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color: #DDD0C8;
 }
 
 .footer p {
